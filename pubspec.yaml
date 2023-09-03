@@ -1,0 +1,33 @@
+name: eternalescape
+description: Lute pela sua vida contra ordas de goblins.
+
+publish_to: 'Rainanh' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bonfire: ^2.12.7
+  build_runner: ^2.4.6
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/map/
+    - assets/images/player/
+    - assets/images/enemies/
+    - assets/images/abilities/
